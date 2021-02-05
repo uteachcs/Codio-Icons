@@ -546,7 +546,7 @@ textarea {
   display: inline-block;
   content: '';
   border-left: 9px solid transparent;
-  border-top: 9px solid #fff;
+ /* border-top: 9px solid #fff; */
   border-right: 9px solid transparent;
   left: -14px;
   top: 0px;
@@ -568,7 +568,7 @@ textarea {
   display: inline-block;
   content: '';
   border-left: 9px solid transparent;
-  border-bottom: 9px solid #fff;
+ /* border-bottom: 9px solid #fff; */
   border-right: 9px solid transparent;
   left: -14px;
   top: 5px;

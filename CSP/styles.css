@@ -1748,3 +1748,373 @@ mark {
 .codio-assessment-last-run {
   font-family: 'Nunito Sans', sans-serif;
 }
+
+
+/*Bootstrap style tables*/
+
+
+.tableBoot {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529
+}
+
+.tableBoot td,
+.tableBoot th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6
+}
+
+.tableBoot thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6
+}
+
+.tableBoot tbody + tbody {
+    border-top: 2px solid #dee2e6
+}
+
+.tableBoot-sm td,
+.tableBoot-sm th {
+    padding: .3rem
+}
+
+.tableBoot-bordered {
+    border: 1px solid #dee2e6
+}
+
+.tableBoot-bordered td,
+.tableBoot-bordered th {
+    border: 1px solid #dee2e6
+}
+
+.tableBoot-bordered thead td,
+.tableBoot-bordered thead th {
+    border-bottom-width: 2px
+}
+
+.tableBoot-borderless tbody + tbody,
+.tableBoot-borderless td,
+.tableBoot-borderless th,
+.tableBoot-borderless thead th {
+    border: 0
+}
+
+.tableBoot-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+.tableBoot-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, .075)
+}
+
+.tableBoot-primary,
+.tableBoot-primary > td,
+.tableBoot-primary > th {
+    background-color: #b8daff
+}
+
+.tableBoot-primary tbody + tbody,
+.tableBoot-primary td,
+.tableBoot-primary th,
+.tableBoot-primary thead th {
+    border-color: #7abaff
+}
+
+.tableBoot-hover .tableBoot-primary:hover {
+    background-color: #9fcdff
+}
+
+.tableBoot-hover .tableBoot-primary:hover > td,
+.tableBoot-hover .tableBoot-primary:hover > th {
+    background-color: #9fcdff
+}
+
+.tableBoot-secondary,
+.tableBoot-secondary > td,
+.tableBoot-secondary > th {
+    background-color: #d6d8db
+}
+
+.tableBoot-secondary tbody + tbody,
+.tableBoot-secondary td,
+.tableBoot-secondary th,
+.tableBoot-secondary thead th {
+    border-color: #b3b7bb
+}
+
+.tableBoot-hover .tableBoot-secondary:hover {
+    background-color: #c8cbcf
+}
+
+.tableBoot-hover .tableBoot-secondary:hover > td,
+.tableBoot-hover .tableBoot-secondary:hover > th {
+    background-color: #c8cbcf
+}
+
+.tableBoot-success,
+.tableBoot-success > td,
+.tableBoot-success > th {
+    background-color: #c3e6cb
+}
+
+.tableBoot-success tbody + tbody,
+.tableBoot-success td,
+.tableBoot-success th,
+.tableBoot-success thead th {
+    border-color: #8fd19e
+}
+
+.tableBoot-hover .tableBoot-success:hover {
+    background-color: #b1dfbb
+}
+
+.tableBoot-hover .tableBoot-success:hover > td,
+.tableBoot-hover .tableBoot-success:hover > th {
+    background-color: #b1dfbb
+}
+
+.tableBoot-info,
+.tableBoot-info > td,
+.tableBoot-info > th {
+    background-color: #bee5eb
+}
+
+.tableBoot-info tbody + tbody,
+.tableBoot-info td,
+.tableBoot-info th,
+.tableBoot-info thead th {
+    border-color: #86cfda
+}
+
+.tableBoot-hover .tableBoot-info:hover {
+    background-color: #abdde5
+}
+
+.tableBoot-hover .tableBoot-info:hover > td,
+.tableBoot-hover .tableBoot-info:hover > th {
+    background-color: #abdde5
+}
+
+.tableBoot-warning,
+.tableBoot-warning > td,
+.tableBoot-warning > th {
+    background-color: #ffeeba
+}
+
+.tableBoot-warning tbody + tbody,
+.tableBoot-warning td,
+.tableBoot-warning th,
+.tableBoot-warning thead th {
+    border-color: #ffdf7e
+}
+
+.tableBoot-hover .tableBoot-warning:hover {
+    background-color: #ffe8a1
+}
+
+.tableBoot-hover .tableBoot-warning:hover > td,
+.tableBoot-hover .tableBoot-warning:hover > th {
+    background-color: #ffe8a1
+}
+
+.tableBoot-danger,
+.tableBoot-danger > td,
+.tableBoot-danger > th {
+    background-color: #f5c6cb
+}
+
+.tableBoot-danger tbody + tbody,
+.tableBoot-danger td,
+.tableBoot-danger th,
+.tableBoot-danger thead th {
+    border-color: #ed969e
+}
+
+.tableBoot-hover .tableBoot-danger:hover {
+    background-color: #f1b0b7
+}
+
+.tableBoot-hover .tableBoot-danger:hover > td,
+.tableBoot-hover .tableBoot-danger:hover > th {
+    background-color: #f1b0b7
+}
+
+.tableBoot-light,
+.tableBoot-light > td,
+.tableBoot-light > th {
+    background-color: #fdfdfe
+}
+
+.tableBoot-light tbody + tbody,
+.tableBoot-light td,
+.tableBoot-light th,
+.tableBoot-light thead th {
+    border-color: #fbfcfc
+}
+
+.tableBoot-hover .tableBoot-light:hover {
+    background-color: #ececf6
+}
+
+.tableBoot-hover .tableBoot-light:hover > td,
+.tableBoot-hover .tableBoot-light:hover > th {
+    background-color: #ececf6
+}
+
+.tableBoot-dark,
+.tableBoot-dark > td,
+.tableBoot-dark > th {
+    background-color: #c6c8ca
+}
+
+.tableBoot-dark tbody + tbody,
+.tableBoot-dark td,
+.tableBoot-dark th,
+.tableBoot-dark thead th {
+    border-color: #95999c
+}
+
+.tableBoot-hover .tableBoot-dark:hover {
+    background-color: #b9bbbe
+}
+
+.tableBoot-hover .tableBoot-dark:hover > td,
+.tableBoot-hover .tableBoot-dark:hover > th {
+    background-color: #b9bbbe
+}
+
+.tableBoot-active,
+.tableBoot-active > td,
+.tableBoot-active > th {
+    background-color: rgba(0, 0, 0, .075)
+}
+
+.tableBoot-hover .tableBoot-active:hover {
+    background-color: rgba(0, 0, 0, .075)
+}
+
+.tableBoot-hover .tableBoot-active:hover > td,
+.tableBoot-hover .tableBoot-active:hover > th {
+    background-color: rgba(0, 0, 0, .075)
+}
+
+.tableBoot .thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55
+}
+
+.tableBoot .thead-light th {
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: #dee2e6
+}
+
+.tableBoot-dark {
+    color: #fff;
+    background-color: #343a40
+}
+
+.tableBoot-dark td,
+.tableBoot-dark th,
+.tableBoot-dark thead th {
+    border-color: #454d55
+}
+
+.tableBoot-dark.tableBoot-bordered {
+    border: 0
+}
+
+.tableBoot-dark.tableBoot-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, .05)
+}
+
+.tableBoot-dark.tableBoot-hover tbody tr:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .075)
+}
+@media (max-width:575.98px) {
+    .tableBoot-responsive-sm {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+    .tableBoot-responsive-sm > .tableBoot-bordered {
+        border: 0
+    }
+}
+@media (max-width:767.98px) {
+    .tableBoot-responsive-md {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+    .tableBoot-responsive-md > .tableBoot-bordered {
+        border: 0
+    }
+}
+
+@media (max-width:991.98px) {
+    .tableBoot-responsive-lg {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+    .tableBoot-responsive-lg > .tableBoot-bordered {
+        border: 0
+    }
+}
+
+@media (max-width:1199.98px) {
+    .tableBoot-responsive-xl {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+    .tableBoot-responsive-xl > .tableBoot-bordered {
+        border: 0
+    }
+}
+
+.tableBoot-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch
+}
+
+.tableBoot-responsive > .tableBoot-bordered {
+    border: 0
+}
+    .tableBoot {
+        border-collapse: collapse !important
+    }
+    .tableBoot td,
+    .tableBoot th {
+        background-color: #fff !important
+    }
+    .tableBoot-bordered td,
+    .tableBoot-bordered th {
+        border: 1px solid #dee2e6 !important
+    }
+    .tableBoot-dark {
+        color: inherit
+    }
+    .tableBoot-dark tbody + tbody,
+    .tableBoot-dark td,
+    .tableBoot-dark th,
+    .tableBoot-dark thead th {
+        border-color: #dee2e6
+    }
+    .tableBoot .thead-dark th {
+        color: inherit;
+        border-color: #dee2e6
+    }
+}

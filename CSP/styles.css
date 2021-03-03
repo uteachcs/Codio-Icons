@@ -213,7 +213,7 @@
 }
 
 .codio-button-type-assessment-multiple-checkbox input:checked + label i {
-  background-image: url("/assets/images/guides/checkmark.svg");
+  background-image: url("https://codio.com/assets/images/guides/checkmark.svg");
   background-size: contain;
   background-color: #797d92;
 }
@@ -615,7 +615,7 @@ textarea {
 }
 
 .codio-button-expand {
-  background-image: url('/assets/images/guides/expand.svg');
+  background-image: url('https://codio.com/assets/images/guides/expand.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -646,7 +646,7 @@ textarea {
 .codio-growthhack::before,
 .codio-debugging::before,
 .codio-xdiscipline::before {
-  background-image: url("/assets/images/guides/blocks/quote.svg");
+  background-image: url("https://codio.com/assets/images/guides/blocks/quote.svg");
   position: absolute;
   content: ' ';
   margin-left: -110px;
@@ -1027,25 +1027,25 @@ textarea {
 }
 
 .codio-button-result-out-pass:before {
-  content: url("/assets/images/guides/checkmark_green.svg");
+  content: url("https://codio.com/assets/images/guides/checkmark_green.svg");
   height: 26px;
   width: 26px;
 }
 
 .codio-button-result-out-fail:before {
-  content: url("/assets/images/guides/remove_red.svg");
+  content: url("https://codio.com/assets/images/guides/remove_red.svg");
   height: 26px;
   width: 26px;
 }
 
 .codio-button-result-out-invalid:before {
-  content: url("/assets/images/guides/remove_red.svg");
+  content: url("https://codio.com/assets/images/guides/remove_red.svg");
   height: 26px;
   width: 26px;
 }
 
 .codio-button-result-out-progress:before {
-  content: url("/assets/images/guides/spinner-black.gif");
+  content: url("https://codio.com/assets/images/guides/spinner-black.gif");
   top: 23px;
   left: 24px;
 }
@@ -1442,7 +1442,7 @@ footer a:hover {
 }
 
 footer a span::after {
-  background-image: url('/assets/images/guides/footer-next.png');
+  background-image: url('https://codio.com/assets/images/guides/footer-next.png');
   background-size: 1em 1em;
   width: 1em;
   height: 1em;
@@ -1660,7 +1660,7 @@ pre code strong {
 }
 
 .btn-clipboard {
-  background-image: url('/assets/images/guides/clipboard.svg');
+  background-image: url('https://codio.com/assets/images/guides/clipboard.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;

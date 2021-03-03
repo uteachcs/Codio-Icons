@@ -785,20 +785,22 @@ textarea {
 }
 
 .codio-info::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/blue-helpful-info-icon.svg");
+  background-image: url(../images/blue-helpful-info-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
 }
 
 /* this is for vocab */
 .codio-definition::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/blue-dictionary-icon.svg");
+  background-image: url(../images/blue-dictionary-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
 }
 
 .codio-warning::before {
-  background-image: url("");
+  background-image: url(../images/blue-return-icon.svg);
+	margin-left: -80px;
+	margin-top: -20px;
 }
 .codio-curiculum::before,
 .codio-topic::before {
@@ -807,7 +809,7 @@ textarea {
 
 /* this is for assessments */
 .codio-challenge::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/blue-assessment-icon.svg");
+  background-image: url(../images/blue-assessment-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
   
@@ -815,35 +817,35 @@ textarea {
 
 /* this is for teacher guidance */
 .codio-guidance::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/teacher-guidance-icon.svg");
+  background-image: url(../images/teacher-guidance-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
 }
 
 /* this is for our group discussions */
 .codio-meetups::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/blue-group-work-icon.svg");
+  background-image: url(../images/blue-group-work-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
 }
 
 /* this is our group discussion */
 .codio-headline::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/blue-discussion-icon.svg");
+  background-image: url(../images/blue-discussion-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
 }
 
 /* this is for pair programming */
 .codio-hackathon::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/blue-pair-programming-icon.svg");
+  background-image: url(../images/blue-pair-programming-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
 }
 
 /* this is for lesson activities */
 .codio-create::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/blue-tryitout-icon.svg");
+  background-image: url(../images/blue-tryitout-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
 }
@@ -854,14 +856,14 @@ textarea {
 
 /* this is for unplugged */
 .codio-growthhack::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/blue-unplugged-icon.svg");
+  background-image: url(../images/blue-unplugged-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
 }
 
 /* this is for coding assignments */
 .codio-debugging::before {
-  background-image: url("https://raw.githubusercontent.com/uteachcs/Codio-Icons/master/CSP%20Icons/blue-coding-icon.svg");
+  background-image: url(../images/blue-coding-icon.svg);
   margin-left: -80px;
   margin-top: -20px;
 }
@@ -1288,9 +1290,7 @@ textarea {
 
 /* highilight css */
 /*
-
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
-
 */
 
 .hljs {
@@ -1605,7 +1605,7 @@ code {
   font-weight: 400;
   font-style: normal;
   /* color: #db0000; */
-  padding: 0.5em;
+  padding: 0 .5em;
   background-color: #f7f9fc;
   border: 1px solid #c7d5f6;
   border-radius: 2px;
@@ -4129,4 +4129,3 @@ mark {
         float: none !important
     }
 }
-
